@@ -1,0 +1,10 @@
+<ion-view view-title="Hava Durumu" style="background-color: #009689">
+ <ion-content>
+   <ion-list>
+     <!--Şehirlerin sıralandıgı yer -->
+     <ion-item class="item-remove-animate item-avatar item-icon-right" ng-repeat="chat in chats" type="item-text-wrap" href="#/tab/chats/{{chat}}">
+       <h2>{{chat}}</h2>
+     </ion-item>
+   </ion-list>
+ </ion-content>
+</ion-view>

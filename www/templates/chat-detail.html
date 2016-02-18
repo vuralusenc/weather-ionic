@@ -1,0 +1,30 @@
+<!--
+ This template loads for the 'tab.friend-detail' state (app.js)
+ 'friend' is a $scope variable created in the FriendsCtrl controller (controllers.js)
+ The FriendsCtrl pulls data from the Friends service (service.js)
+ The Friends service returns an array of friend data
+-->
+
+<!-- Bilgilerin listelendigi kısım-->
+<ion-view view-title="{{chat}}" style="background-color: #009689">
+ <ion-content class="padding">
+      <div class="list list-inset">
+
+    <div class="item">
+      <div class="aa" style="padding-left:50px"><img src="./img/resim5.png"/><img src="./img/resim4.png"/><img src="./img/resim3.png"/><img src="./img/resim2.png"/><img src="./img/resim1.png"/></div>
+    </div>
+    <div ng-repeat="i in [0, 1, 2, 3]">
+       <div class="gun" style="text-align:center;">{{havadurumu[i].gun}}</div>
+       <div class="yukseksicak"></div>
+       En Yüksek Sıcaklık      <span style="color:red">{{havadurumu[i].enYuksekSicaklik}}</span><br>
+       En Düşük Sıcaklık       <span style="color:red">{{havadurumu[i].enDusukSicaklik}}</span><br>
+       En Yüksek Nem           <span style="color:red">{{havadurumu[i].enYuksekNem}}</span><br>
+       En Düşük Nem            <span style="color:red">{{havadurumu[i].enDusukNem}}</span><br>
+       Hadise                  <span style="color:red">{{havadurumu[i].hadise}}</span><br>
+       Rüzgar Yön              <span style="color:red">{{havadurumu[i].ruzgarYon}}</span><br>
+       Rüzgar Hız              <span style="color:red">{{havadurumu[i].ruzgarHiz}}</span><br>
+       <hr>
+   </div>
+</div>
+ </ion-content>
+</ion-view>

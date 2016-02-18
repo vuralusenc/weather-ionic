@@ -1,0 +1,13 @@
+<ion-view view-title="Yol Durumu" style="background-color: #009689">
+ <ion-content class="padding" ng-controller="kgmBotu">
+   <div class="list card" ng-repeat="haber in habers">
+     <div class="item item-divider" > <div class="ion-alert-circled">  Duyuru</div>
+     </div>
+     <div class="item item-body" style="background-color: #e67e22">
+       <div>
+         {{ haber }}
+       </div>
+     </div>
+   </div>
+ </ion-content>
+</ion-view>

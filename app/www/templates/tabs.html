@@ -1,0 +1,24 @@
+<!--
+Create tabs with an icon and label, using the tabs-positive style.
+Each tab's child <ion-nav-view> directive will have its own
+navigation history that also transitions its views in and out.
+-->
+<ion-tabs class="tabs-striped tabs-color-assertive" style="background-color: #009689">
+
+  <!-- Yol Bülteni -->
+  <ion-tab title="Yol Bülteni" style="background-color: #009689" icon-off="ion-ios-filing-outline" icon-on="ion-ios-filing-outline" href="#/tab/dash">
+    <ion-nav-view name="tab-dash"></ion-nav-view>
+  </ion-tab>
+
+  <!-- Hava Durumu -->
+  <ion-tab title="Hava Durumu" icon-off="ion-ios-cloudy-night" icon-on="ion-ios-cloudy-night" href="#/tab/chats">
+    <ion-nav-view name="tab-chats"></ion-nav-view>
+  </ion-tab>
+
+  <!-- Şöför bilgilendirme -->
+  <ion-tab title="Geri Bildirim" icon-off="ion-ios-gear-outline" icon-on="ion-ios-gear" href="#/tab/account">
+    <ion-nav-view name="tab-account"></ion-nav-view>
+  </ion-tab>
+
+
+</ion-tabs>

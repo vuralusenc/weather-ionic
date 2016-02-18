@@ -1,0 +1,28 @@
+<ion-view view-title="Geri Bildirim" style="background-color: #009689">
+  <ion-content>
+    <div class="list">
+    <label class="item item-input item-stacked-label">
+      <span class="input-label">Adınız</span>
+      <input type="text" placeholder="Adınız" style="width:200px;" ng-model="form.ad">
+    </label>
+    <label class="item item-input item-stacked-label">
+      <span class="input-label">Mail</span>
+      <input type="text" placeholder="Mail" style="width:200px;" ng-model="form.mail">
+    </label>
+    <label class="item item-input item-stacked-label">
+      <span class="input-label">Mesaj</span>
+      <textarea name="name" rows="8" cols="40" placeholder="Mesajınız" ng-model="form.mesaj"></textarea>
+    </label>
+  </div>
+
+<div class="buton"  style="text-align:center;border-radius: 10px;">
+
+  <input type="button" name="gönder" value="asdsa" class="button button-balanced" ng-click="ekle()">
+</div>
+<div class="card">
+  <div class="item item-text-wrap">
+    Uygulama ile ilgili görüşleriniz formu doldurarak bildirebilirsiniz.
+  </div>
+</div>
+  </ion-content>
+</ion-view>
