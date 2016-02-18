@@ -7,4 +7,4 @@ NodeJS ile bot mantığı kullanılarak yapılan uygulama aşağıda verilen iki
 
 
 http://i.hizliresim.com/L1JE8o.png
-
+http://i.hizliresim.com/lvo9DQ.png
