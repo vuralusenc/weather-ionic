@@ -6,4 +6,5 @@ NodeJS ile bot mantığı kullanılarak yapılan uygulama aşağıda verilen iki
 2-) http://www.mgm.gov.tr/mobile/tahmin-il-ve-ilceler.aspx
 
 
+http://i.hizliresim.com/L1JE8o.png
 
